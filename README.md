@@ -1,2 +1,2 @@
 # Coureur
- Womanizer Simulation, simple
+ Simple Womanizer Simulation in Javafx and with CSS
