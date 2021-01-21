@@ -1,0 +1,45 @@
+.root{
+	-fx-font-family: Fraunces;
+	-fx-background-color: #F0F4F8;
+	-fx-padding: 25px;
+	-fx-alignment: center;
+	-fx-spacing: 10px;
+}
+
+.root:hover{
+	-fx-cursor: wait;
+}
+
+.hBox{
+	/*-fx-background-color: orange;*/
+	-fx-spacing: 25px;
+}
+
+.label{
+	-fx-text-fill:#044E54;
+}
+
+.button{
+	-fx-font-size: 16px; 
+	-fx-background-color:#E66A6A; 
+	-fx-background-radius:10px; 
+	-fx-text-fill:#fff; 
+	-fx-padding:10px;
+	/*-fx-graphic: url("../images/like.png")*/
+}
+
+.button:hover{
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 1), 10, 0, 0, 0);
+	-fx-cursor: hand;
+}
+
+#titleLabel{
+	-fx-font: bold 28px "Pacifico"; 
+	-fx-padding: 0 0 50px 0;
+	
+}
+
+#statusLabel{ 
+	-fx-font-size: 20px;
+}
+
